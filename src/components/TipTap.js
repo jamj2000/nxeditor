@@ -200,6 +200,9 @@ const MenuBar = () => {
       >
         purple
       </button>
+      <button  onClick={() => alert( editor.getHTML() )}  >
+        HTML
+      </button>
     </>
   )
 }
